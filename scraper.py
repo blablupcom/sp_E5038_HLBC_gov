@@ -105,7 +105,6 @@ for link in links:
         stem = url.split('/')[-1]
         fileUrl = 'http://www.haringey.gov.uk/sites/haringeygovuk/files/'+stem
         title = link.contents[0]
-        print title
         csvYr = title.split(' ')[1]
         csvMth = title.split(' ')[0][:3]
         if 'Quarter 2' in title:
